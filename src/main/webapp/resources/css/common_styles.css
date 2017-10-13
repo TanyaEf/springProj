@@ -1,0 +1,123 @@
+@CHARSET "UTF-8";
+
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	display: table;
+	height: 100%;
+	width: 100%;
+	background: rgb(124, 124, 124); /* Old browsers */
+	background: linear-gradient(to top, #FCFCFC, #939393);
+	background: -moz-linear-gradient(top, rgb(124, 124, 124) 0%,
+		rgb(255, 255, 255) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(124,
+		124, 124)), color-stop(100%, rgb(255, 255, 255)));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgb(124, 124, 124) 0%,
+		rgb(255, 255, 255) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgb(124, 124, 124) 0%,
+		rgb(255, 255, 255) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgb(124, 124, 124) 0%,
+		rgb(255, 255, 255) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgb(124, 124, 124) 0%,
+		rgb(255, 255, 255) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c',
+		endColorstr='#ffffff', GradientType=0);
+	text-align: center;
+}
+
+.link_container {
+	color: #5f6e7a;
+	text-align: left;
+}
+
+A:link {
+	text-decoration: none;
+	color: #5f6e7a;
+}
+
+A:visited {
+	text-decoration: none;
+}
+
+A:active {
+	text-decoration: none;
+	color: #c186c8;
+}
+
+A:hover {
+	text-decoration: underline;
+	color: #96479e;
+}
+
+.error {
+	padding: 5px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #a94442;
+	background-color: #f2dede;
+	border-color: #ebccd1;
+	width: 94%;
+}
+
+.msg {
+	padding: 15px;
+	margin-bottom: 20px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+.head-logout-container {
+	height: 50px;
+	margin-bottom: 20px;
+}
+.logout-containert {
+	float: right;
+	padding: 20px;
+}
+
+.logout-text {
+	float: left;	
+}
+
+.username-container {
+	font-weight: bold;
+	float: left;
+	margin-left: 10px;
+	
+}
+.logout-link {
+	float: left;
+	margin-left: 20px;
+}
+
+.content-container {
+	display: table;	
+	width: 100%;
+	margin: auto;
+}
+
+.left-container {
+	display:table-cell;
+	border-color:white;
+	
+	width: 20%;
+	
+}
+
+.right-container {
+	display: table-cell;
+	margin-left: 20%;
+	
+	
+}
+
+#user-table-container {
+	margin-left: 10%;
+	margin-right: 10%
+}

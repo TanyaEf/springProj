@@ -1,0 +1,4 @@
+WARN    2015-06-22 15:30:44,395 [http-nio-8080-exec-4] com.globallogic.springProj.controllers.UserController  - List of users is empty
+WARN    2015-06-22 15:32:40,583 [http-nio-8080-exec-4] com.globallogic.springProj.controllers.UserController  - List of users is empty
+WARN    2015-06-22 15:36:55,313 [http-nio-8080-exec-7] com.globallogic.springProj.controllers.UserController  - List of users is empty
+WARN    2015-06-23 12:14:11,514 [http-nio-8080-exec-6] com.globallogic.springProj.controllers.UserController  - List of users is empty
